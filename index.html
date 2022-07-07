@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<title>Page Title</title>
+		<!-- Defines the scale of the page -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Latest compiled and minified Bootsttrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!--jQuery library, required for botstrap -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- Defines a client-side script -->
+		<script type="text/javascript" src="js/script.js"></script>
+
+		<!-- Include a google font -->
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,900,700italic,600italic,400italic,600,700' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+
+		<!-- WRAP is part of the sticky footer example -->
+		<!-- found at https://getbootstrap.com/2.3.2/examples/sticky-footer-navbar.html -->
+		<div class="wrap">
+			<header>
+				<!-- Found at https://getbootstrap.com/components/#navbar -->
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span>MENU</span>
+							</button>
+							<a class="navbar-brand" href="index.html">The happy Plane</a>
+						</div>
+
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="http://www.boeing.com/">boeing.com</a></li>
+								<li><a href="http://www.boeing.com/space/">Boeing in the space</a></li>
+								<li><a href="http://www.boeing.com/principles/education.page">Boeing and the education</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+
+			<div class="main-content">
+				<div class="container">
+
+					<!-- Bootstrap panel explained here -->
+					<!-- http://www.w3schools.com/bootstrap/bootstrap_panels.asp -->
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="post-01.html">
+						<h2>Ibai llanos la velada de el año</h2> 
+
+							<img src="data:image/jpeg;base64,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">
+
+
+							
+
+							
+							<blockquote></blockquote>
+							
+
+							<p>Ibai Llanos.</p>
+						
+							<h3>Ibai Llanos:LA VELADA DEL AÑO 2</h3>
+							
+
+							
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="post-02.html">
+								<h2>La Velada del año</h2>
+							</a>
+							
+							<img class="img-responsive img-rounded" src="https://img.zonared.com/images/noticias/portada/66000/66250-h.jpg" alt="Champion">
+
+							
+							
+
+							
+							
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="post-03.html">
+							
+	
+							
+				
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">Contact: please write to <a href="mailto:example@mail.com">example@mail.com</a>.</p>
+			</div>
+		</footer>
+
+	</body>
+</html>
